@@ -10,9 +10,8 @@ The cancer lab I worked at tracks cancer by gaussia signal in the blood of mice.
 
 ## 💻 Tech Stack
 
-- **Frontend:** HTML5, CSS3, JavaScript
-- **Backend:** Node.js, Express
-- **Database:** MongoDB
+- **Code:** Python package using pandas and openpyxyl libraries
+- **Database:**Microsoft Access
 
 ## 🚀 Getting Started
 
