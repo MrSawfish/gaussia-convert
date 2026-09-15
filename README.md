@@ -54,13 +54,24 @@ What you need to install before running the software:
 
 ## 📖 Usage Examples
 
-Provide a brief example of how to interact with your code or API:
+## 📖 Usage
 
-```javascript
-// Example JavaScript function call
-const response = await fetchUserData('userId123');
-console.log(response);
+1. Place all the Excel files you want to consolidate into a single folder (e.g. `data/raw_excel/`).
+
+2. Run the script, pointing it at that folder:
+```bash
+   python convert_to_dataframe.py --input data/raw_excel/ --output combined_data.csv
 ```
+
+3. The script will:
+   - Scan the folder for `.xlsx` files
+   - Parse each file's Gaussia signal data into a common dataframe format
+   - Combine all files into a single consolidated dataset
+   - Export the result (e.g. as `.csv`) ready for import into Microsoft Access
+
+4. Import the resulting file into Access:
+   - Open Microsoft Access → **External Data** → **New Data Source** → **From File** → **Text File**
+   - Select the exported `.xlsx` and follow the import wizard to map it into your database table
 
 ## 🤝 Contributing
 
