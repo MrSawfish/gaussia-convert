@@ -15,42 +15,30 @@ The cancer lab I worked at tracks cancer by gaussia signal in the blood of mice.
 
 ## 🚀 Getting Started
 
-Follow these instructions to get a copy of the project up and running on your local machine.
-
 ### Prerequisites
 
 What you need to install before running the software:
-- Node.js (v18 or higher)
-- npm (v9 or higher)
+- Python 3.13.12 (Openpyxl needs to work with it)
+- pandas
+- Openpyxl 3.1.5
 
 ### Installation
 
-1. **Clone the repository:**
-   ```bash
-   git clone https://github.com
-   ```
+1. Clone the repository:
+```bash
+   git clone https://github.com/your-username/your-repo-name.git
+   cd your-repo-name
+```
 
-2. **Navigate into the directory:**
-   ```bash
-   cd project-name
-   ```
+2. Install the required packages:
+```bash
+   pip install -r requirements.txt
+```
 
-3. **Install the dependencies:**
-   ```bash
-   npm install
-   ```
-
-4. **Set up environment variables:**
-   Create a `.env` file in the root directory and add your keys:
-   ```env
-   PORT=3000
-   API_KEY=your_secret_key_here
-   ```
-
-5. **Start the local server:**
-   ```bash
-   npm start
-   ```
+   Or install them individually:
+```bash
+   pip install pandas openpyxl==3.1.5
+```
 
 ## 📖 Usage Examples
 
