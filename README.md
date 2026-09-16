@@ -125,9 +125,8 @@ Contributions make the open-source community an amazing place to learn, inspire,
 5. Open a pull request
 
 
-Distributed under the MIT License. See `LICENSE` for more information.
 
 ## 📬 Contact
 
-Your Name - [@your_twitter](https://twitter.com) - email@example.com
+Raul Davila - raulbiomedical@gmail.com
 Project Link: [https://github.com](https://github.com)
